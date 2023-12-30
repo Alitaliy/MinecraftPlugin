@@ -1,0 +1,23 @@
+name: RegisterSmart
+version: '1.0-SNAPSHOT'
+main: me.plugin.registersmart.registersmart.RegisterSmart
+api-version: 1.18
+database: true
+description: "一个登录插件"
+author: Alitaliy
+commands:
+  hl:
+    aliases:
+      - "l"
+      - "L"
+      - "reg"
+      - "register"
+      - "login"
+      - "log"
+    usage: "/hl <PASSWORD> [<PASSWORD>]"
+    description: "登录或者注册账号"
+  iforgot:
+    aliases:
+      - "ifg"
+    usage: "/iforgot"
+    description: "用于创建一个重置密码请求"

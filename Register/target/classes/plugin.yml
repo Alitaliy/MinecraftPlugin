@@ -1,0 +1,11 @@
+name: Register
+version: '1.0-SNAPSHOT'
+main: me.plugin.register.Register
+api-version: 1.18
+commands:
+  login:
+    aliases:
+      - "lg"
+      - "l"
+    usage: "/login or /lg or /l"
+    description: "登录"
