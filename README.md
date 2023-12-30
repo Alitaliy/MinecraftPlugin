@@ -1,0 +1,2 @@
+# MinecraftPlugin
+Minecraft plugin development
